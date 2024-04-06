@@ -1,0 +1,27 @@
+<div class="container-sides">
+  <div class="left-side">
+    <img src="https://i.pinimg.com/originals/26/52/1c/26521c92c945a36497af5917359c5588.jpg" alt="The Wisconsin State Capitol building in Madison, WI at night">
+    <h1>Neopixel Shop</h1>
+  </div>
+  <div class="right-side">
+    <div class="container-inputs">
+      <ion-input
+        type="email"
+        label="Correo electronico"
+        labelPlacement="floating"
+        errorText="Invalid email"
+        [(ngModel)]="email"
+      ></ion-input>
+      <ion-input
+        type="password"
+        label="Contraseña"
+        labelPlacement="floating"
+        errorText="Invalid email"
+        [(ngModel)]="password"
+      ></ion-input>
+    </div>
+    <div class="container-button">
+      <ion-button (click)="login()">Inicar sesion</ion-button> 
+    </div> 
+  </div>
+</div>

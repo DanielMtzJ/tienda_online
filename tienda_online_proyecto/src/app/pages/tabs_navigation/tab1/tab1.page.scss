@@ -1,0 +1,30 @@
+ion-searchbar.custom {
+  --background: #ffffff;
+  --color: #000000;
+  --placeholder-color: #000000;
+  --icon-color: #000000;
+  --clear-button-color: #fff;
+
+  --border-radius: 4px;
+}
+
+ion-searchbar.ios.custom {
+  --cancel-button-color: #19422d;
+}
+
+ion-searchbar.md.custom {
+  --cancel-button-color: #fff;
+}
+
+.container-title {
+  color: #000000;
+  text-align: center;
+  font-weight: bold;
+}
+
+.img-product {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+}
