@@ -1,7 +1,7 @@
 import {pool} from '../connection.js'
 import admin from 'firebase-admin';
 
-import serviceAccount from '../../../nexpixel-shop-firebase-adminsdk-907eb-6793c053e6.json' assert { type: 'json' };;
+import serviceAccount from '../../../nexpixel-shop-firebase-adminsdk-907eb-4157af9de8.json' assert { type: 'json' };;
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
