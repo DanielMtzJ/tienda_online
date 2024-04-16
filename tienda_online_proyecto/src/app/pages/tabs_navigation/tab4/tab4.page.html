@@ -1,8 +1,24 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>tab4edddd</ion-title>
+    <ion-searchbar class="custom" placeholder="Buscar productos"></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
+
+<ion-menu side="end" contentId="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>Menú</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-item (click)="logout()">Cerrar sesión</ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
